@@ -1,7 +1,7 @@
 import React from "react"
-import Inicio from "./inicio"
-import Sobre from "./sobre"
-import Projetos from "./projetos"
+import Inicio from "./inicio.jsx"
+import Sobre from "./sobre.jsx"
+import Projetos from "./projetos.jsx"
 import { BrowserRouter,Routes,Route, Link} from "react-router-dom"
 import * as S from "./Style.jsx"
 
@@ -13,15 +13,17 @@ import * as S from "./Style.jsx"
 
 
 
-function Navegation() {
+function Navigation() {
     return (
         <>
             <BrowserRouter>
                 <S.Nav>
+                   
                     <S.Ul>
+                   
                         {/* to = para, um link para o sobre, projetos e início. Me leve para tal lugar */}
 
-                        <li> <Link to="/"> Inicio </Link>  </li>
+                        <li> <Link to="/"> Home </Link>  </li>
                         <li> <Link to="/Sobre"> Sobre </Link>   </li>
                         <li> <Link to="/Projetos"> Projetos </Link>  </li>
                        
@@ -46,4 +48,4 @@ function Navegation() {
 
     )
 }
-export default Navegation
+export default Navigation

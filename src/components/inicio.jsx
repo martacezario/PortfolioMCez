@@ -5,10 +5,6 @@ import Linkedin from "./imagens/linkedin.png"
 import * as S from "./Style.jsx"
 
 
-//importar as outras imagens
-
-
-
 
 function Inicio() {
     return (
@@ -18,8 +14,9 @@ function Inicio() {
 
             <S.ContainerDivs> 
                 <S.BoxInicio>
-                    <h2> Olá! Me chamo Marta Cezario,</h2>
-                    <h2>Venham cantarolar pelo meu portfólio.</h2>
+                    <h2> Olá! </h2>
+                       <h2> Me chamo Marta Cezario,</h2>
+                    <h4> E sou desenvolvedora front-end!</h4>
                 </S.BoxInicio>
 
                 <S.BoxInicio2>

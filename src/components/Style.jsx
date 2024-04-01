@@ -3,7 +3,7 @@ import styled from "styled-components"
 //----Estilização da Navegação
 
 export const Nav = styled.nav`
-background-color: black;
+background-color: #EFF1F0;
 `
 
 export const Ul = styled.ul`
@@ -16,7 +16,7 @@ list-style: none;
 a{
 font-size: 1.5rem;
 text-decoration: none;
-color: white;
+color: #7E5DCA;
 }
 `
 
@@ -28,18 +28,27 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 /* padding: 3rem; */
-background-color: black;
+background-color: #EFF1F0;
 
 
 img{
     border-radius: 50% ;
+    border-width: 15px;
+    border-style: solid;
+    color: #7E5DCA;
+    margin-bottom: 8em;
     
 }
 
 h2{
-    color: white;
+    font-size:50px;
+    color: #7E5DCA;
 }
 
+h4{
+    font-size:30px;
+    color: #1C1C1C;
+}
 `
 
 export const perfil_foto = styled.img`
@@ -69,3 +78,4 @@ display: flex;
 justify-content: space-evenly;
 `
 
+// estilização do Sobre
