@@ -12,15 +12,16 @@ import * as S from "./Style.jsx"
 
 
 
-
 function Navigation() {
     return (
         <>
             <BrowserRouter>
                 <S.Nav>
-                   
+                  
                     <S.Ul>
-                   
+                    <text>
+                    {'<marta/>'}
+                   </text>
                         {/* to = para, um link para o sobre, projetos e início. Me leve para tal lugar */}
 
                         <li> <Link to="/"> Home </Link>  </li>

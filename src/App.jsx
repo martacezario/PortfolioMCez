@@ -8,6 +8,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
+    background-color: #121B1C;
+    overflow: hidden;
     
 
 
