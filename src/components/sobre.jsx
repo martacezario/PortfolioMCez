@@ -33,10 +33,10 @@ function Sobre() {
         
       </S.SectionAbout>
 
-      <S.DivBotãoCV>
+      <S.DivButtonCV>
       <S.Button>CURRÍCULO</S.Button>
 
-      </S.DivBotãoCV>
+      </S.DivButtonCV>
       
       
     </>

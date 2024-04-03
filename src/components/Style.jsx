@@ -143,8 +143,14 @@ export const Ptexto = styled.p`
     color: #00ff95;
   }
 `;
-export const DivBotãoCV = styled.button`
+
+
+export const DivButtonCV = styled.div`
+  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+  display: flex;
   width: 40vw;
+  justify-content: center;
 
   & button {
     
@@ -161,4 +167,7 @@ export const DivBotãoCV = styled.button`
       color: #121b1c;
     }
   }
+
+
 `
+
