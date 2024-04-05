@@ -2,6 +2,7 @@ import React from "react";
 import Perfil from "./imagens/marta.jpeg"
 import Github from "./imagens/github.png"
 import Linkedin from "./imagens/linkedin.png"
+import facebook from "./imagens/iconfb.png"
 import * as S from "./Style.jsx"
 
 
@@ -20,7 +21,7 @@ function Inicio() {
                 </S.BoxInicio>
 
                 <S.BoxInicio2>
-                    <S.ImgGit src={Github} alt="logo do Github" />
+                    <S.ImgGit src={facebook} alt="logo do Github" />
                     <S.ImgLinkedin src={Linkedin} alt="logo do linkedin" />
                 </S.BoxInicio2>
             </S.ContainerDivs>
