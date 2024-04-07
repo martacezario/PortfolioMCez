@@ -78,14 +78,18 @@ export const ImgGit = styled.img`
   width: 40px;
 `;
 
+export const ImgInstagram = styled.img`
+  width: 40px;
+`;
+
 export const ImgLinkedin = styled.img`
   width: 40px;
 `;
 export const ContainerDivs = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 65vh;
+  justify-content: space-between;
+  height: 40vh;
 `;
 
 export const BoxInicio = styled.div`
@@ -106,7 +110,7 @@ export const SectionAbout = styled.section`
   width: 100vw;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5rem;
+  margin-top: 4rem;
 
   
 `
@@ -130,11 +134,12 @@ export const TituloSobre = styled.h2`
   
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 2rem;
 `;
 
 export const DivProfissional = styled.div`
   width: 50vw;
+ 
  
 `;
 export const Ptexto = styled.p`
@@ -144,6 +149,16 @@ export const Ptexto = styled.p`
   }
 `;
 
+export const Divtech = styled.div`
+  
+  
+  display: flex;
+  height: 15vh;
+  margin-top:5rem;
+  justify-content: center;
+
+  
+`
 
 export const DivButtonCV = styled.div`
   
@@ -170,4 +185,24 @@ export const DivButtonCV = styled.div`
 
 
 `
+export const ImgJS = styled.img`
+cursor:pointer;
+  
+`
 
+export const ImgCss = styled.img`
+  cursor:pointer;
+ 
+`
+
+
+export const ImgHtml = styled.img`
+cursor:pointer;
+width: 8vw;
+height: 18vh;
+  
+`
+
+export const ImgReactJs = styled.img`
+  
+`
