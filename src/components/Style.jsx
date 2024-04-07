@@ -25,6 +25,8 @@ export const Ul = styled.ul`
   }
 
   text {
+   
+    font-size:20px;
     background: rgb(238, 174, 202);
     background: radial-gradient(
       circle,
@@ -32,6 +34,7 @@ export const Ul = styled.ul`
       rgba(148, 187, 233, 1) 100%
     );
     font-weight: bold;
+    
   }
 `;
 
@@ -207,4 +210,42 @@ width: 65px;
 export const ImgReactJs = styled.img`
   width: 65px;
  
+`
+
+//estilo projetos
+
+export const SectionProjetos = styled.section`
+
+border: 2px solid red;
+height: 100vh;
+color: aliceblue;
+`
+
+
+export const DivProjetos = styled.div`
+border: 2px solid yellow;
+  
+
+`
+
+export const DivProjetos2 = styled.div`
+border: 2px solid pink;
+  
+`
+export const ImgProjeto1 = styled.img`
+  
+`
+export const ImgProjeto2 = styled.img`
+width: 300px;
+height: 18vh;
+  
+`
+export const ImgProjeto3 = styled.img`
+width: 320px;
+height: 15vh;
+  
+`
+export const ImgProjeto4 = styled.img`
+  
+  width: 250px;
 `

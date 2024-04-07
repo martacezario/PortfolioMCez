@@ -1,46 +1,56 @@
 import React from "react";
-import projeto1 from "./imagens/projeto1.png"
-import projeto2 from "./imagens/projeto2.png"
-import Carousel from "nuka-carousel"
+import projeto1 from "./imagens/pet.png";
+import projeto2 from "./imagens/manger.png";
+import projeto3 from "./imagens/lapizza.png";
+import projeto4 from "./imagens/contador.png"
+import Carousel from "nuka-carousel";
+import * as S from "./Style.jsx";
 
+function Projetos() {
+  return (
+    <S.SectionProjetos>
+      <S.DivProjetos>
+        <S.Ul>
+           
+          <li>
+          <h3>Projeto 1</h3>
+          <p>jsjsnjsns</p>
+            <S.ImgProjeto1 src={projeto1} alt="" />
+          </li>
+          <li>
+          <h3>Projeto 2</h3>
+          <p>jsjsnjsns</p>
+            <S.ImgProjeto2 src={projeto2} alt="" />
+          </li>
+          <li>
+          <h3>Projeto 3</h3>
+          <p>jsjsnjsns</p>
+            <S.ImgProjeto3 src={projeto3} alt="" />
+          </li>
+        </S.Ul>
+      </S.DivProjetos>
 
-
-
-
-function Projetos (){
-
-    const desafios = [
-        {imagem: projeto1 , titulo: "Projeto UM", link: "" , descricao: "blblbablabla"},
-        {imagem: projeto2, titulo: "", link: "" , descricao: ""},
-       
-    ]
-
-   
-
-    return(
-        
-        <section>
-            
-
-
-            
-
-           {desafios.map ((item)=>(
-
-            <div>
-
-                <a href={item.link} target="_blank">   <img src={item.imagem} alt={item.titulo} /> </a>
-
-                <img src={item.imagem} alt="" />
-                <h2>{item.titulo}</h2>
-
-
-            </div>
-            
-
-           ))} 
-        </section>
-    )
+      <S.DivProjetos2>
+        <S.Ul>
+          <li>
+          <h3>Projeto 1</h3>
+          <p>jsjsnjsns</p>
+            <S.ImgProjeto4 src={projeto4} alt="" />
+          </li>
+          <li>
+          <h3>Projeto 1</h3>
+          <p>jsjsnjsns</p>
+            <S.ImgProjeto2 src={projeto2} alt="" />
+          </li>
+          <li>
+          <h3>Projeto 1</h3>
+          <p>jsjsnjsns</p>
+            <S.ImgProjeto3 src={projeto3} alt="" />
+          </li>
+        </S.Ul>
+      </S.DivProjetos2>
+    </S.SectionProjetos>
+  );
 }
 
-export default Projetos
+export default Projetos;
