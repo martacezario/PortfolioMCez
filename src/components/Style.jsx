@@ -156,6 +156,7 @@ export const Divtech = styled.div`
   height: 15vh;
   margin-top:5rem;
   justify-content: center;
+  gap: 5rem;
 
   
 `
@@ -187,22 +188,23 @@ export const DivButtonCV = styled.div`
 `
 export const ImgJS = styled.img`
 cursor:pointer;
+width: 80px;
   
 `
 
 export const ImgCss = styled.img`
   cursor:pointer;
- 
+ width: 65px;
 `
 
 
 export const ImgHtml = styled.img`
 cursor:pointer;
-width: 8vw;
-height: 18vh;
+width: 65px;
   
 `
 
 export const ImgReactJs = styled.img`
-  
+  width: 65px;
+ 
 `

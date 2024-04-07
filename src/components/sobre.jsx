@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Vnw from "./imagens/vnw.png";
-import Javascript from "./imagens/javascript.png";
-import CSS from "./imagens/css.png"
-import Html from "./imagens/html5.png"
-import ReactJs from "./imagens/react.png"
+import Javascript from "./imagens/iconjs.svg";
+import CSS from "./imagens/cssicon.svg"
+import Html from "./imagens/htmlicon.svg"
+import ReactJs from "./imagens/reacticon.svg"
 
 import * as S from "./Style.jsx";
 import animeImage from "./imagens/desenho.jpeg";
